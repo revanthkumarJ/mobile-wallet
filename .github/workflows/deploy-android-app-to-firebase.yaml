@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0
 
       - name: Publish Android App on Firebase
-        uses: openMF/KMP-android-firebase-publish-action@v1.0.2
+        uses: openMF/KMP-android-firebase-publish-action@v1.0.0
         with:
           android_package_name: 'mifospay-android'
 

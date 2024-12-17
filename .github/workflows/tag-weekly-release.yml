@@ -54,9 +54,6 @@
 # - Manual workflow dispatch
 # - Callable from other workflows
 
-
-# https://github.com/openMF/mifos-mobile-github-actions/blob/main/.github/workflows/tag-weekly-release.yaml
-
 # ##############################################################################
 #                 DON'T EDIT THIS FILE UNLESS NECESSARY                        #
 # ##############################################################################
@@ -79,7 +76,40 @@ concurrency:
 jobs:
   tag:
     name: Tag Weekly Release
-    uses: openMF/mifos-mobile-github-actions/.github/workflows/tag-weekly-release.yaml@main
-    secrets: inherit
-    with:
-      target_branch: 'dev'
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout the repository with full history for proper versioning
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Setup Java environment for Gradle operations
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4.2.2
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      # Create and push a new version tag using Reckon
+      # This uses the 'final' stage for production-ready releases
+      - name: Tag Weekly Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./gradlew :reckonTagPush -Preckon.stage=final
+
+      # Trigger the build and publish workflow for beta release
+      # This starts the process of building and deploying the app to various platforms
+      - name: Trigger Workflow
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'multi-platform-build-and-publish.yml',
+              ref: 'dev', 
+              inputs: {
+                "release_type": "beta",
+              },
+            })
+

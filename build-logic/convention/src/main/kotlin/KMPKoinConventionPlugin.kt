@@ -1,7 +1,6 @@
-import com.google.devtools.ksp.gradle.KspExtension
+
 import org.gradle.api.Plugin
 import org.gradle.api.Project
-import org.gradle.kotlin.dsl.configure
 import org.gradle.kotlin.dsl.dependencies
 import org.mifospay.libs
 
@@ -22,10 +21,6 @@ class KMPKoinConventionPlugin : Plugin<Project> {
                 add("kspCommonMainMetadata", libs.findLibrary("koin.ksp.compiler").get())
 
                 add("commonTestImplementation", libs.findLibrary("koin.test").get())
-            }
-
-            extensions.configure<KspExtension> {
-                arg("KOIN_CONFIG_CHECK","true")
             }
         }
     }

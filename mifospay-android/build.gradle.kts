@@ -11,16 +11,6 @@ import com.google.gms.googleservices.GoogleServicesPlugin.GoogleServicesPluginCo
 import org.mifospay.MifosBuildType
 import org.mifospay.dynamicVersion
 
-/*
- * Copyright 2024 Mifos Initiative
- *
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at https://mozilla.org/MPL/2.0/.
- *
- * See https://github.com/openMF/mobile-wallet/blob/master/LICENSE.md
- */
-
 plugins {
     alias(libs.plugins.mifospay.android.application)
     alias(libs.plugins.mifospay.android.application.compose)
@@ -58,10 +48,12 @@ android {
             applicationIdSuffix = MifosBuildType.DEBUG.applicationIdSuffix
         }
 
+        // Disabling proguard for now until
+        // https://github.com/openMF/mobile-wallet/issues/1815 this issue is resolved
         release {
-            isMinifyEnabled = true
+            isMinifyEnabled = false
             applicationIdSuffix = MifosBuildType.RELEASE.applicationIdSuffix
-            isShrinkResources = true
+            isShrinkResources = false
             isDebuggable = false
             isJniDebuggable = false
             signingConfig = signingConfigs.getByName("release")

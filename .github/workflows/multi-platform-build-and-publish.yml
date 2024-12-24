@@ -86,21 +86,6 @@ on:
         default: false
         description: Publish iOS App On App Store
 
-      publish_desktop:
-        type: boolean
-        default: false
-        description: Publish Desktop Apps On App Store
-
-      publish_web:
-        type: boolean
-        default: true
-        description: Publish Web App
-
-      build_ios:
-        type: boolean
-        default: false
-        description: Build iOS App
-
 permissions:
   contents: write
   id-token: write
@@ -122,10 +107,7 @@ jobs:
       desktop_package_name: 'mifospay-desktop' # <-- Change this to your desktop package name
       web_package_name: 'mifospay-web'   # <-- Change this to your web package name
       publish_android: ${{ inputs.publish_android }}
-      build_ios: ${{ inputs.build_ios }}
       publish_ios: ${{ inputs.publish_ios }}
-      publish_desktop: ${{ inputs.publish_desktop }}
-      publish_web: ${{ inputs.publish_web }}
     secrets:
       original_keystore_file: ${{ secrets.ORIGINAL_KEYSTORE_FILE }}
       original_keystore_file_password: ${{ secrets.ORIGINAL_KEYSTORE_FILE_PASSWORD }}

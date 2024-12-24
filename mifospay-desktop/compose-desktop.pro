@@ -20,12 +20,6 @@
 -keep class io.ktor.** { *; }
 -dontnote io.ktor.**
 
-# Keep all DTO classes in the package
--keep class com.rwmobi.kunigami.data.source.network.dto.** { *; }
--dontnote com.rwmobi.kunigami.data.source.network.dto.**
--keep class com.rwmobi.kunigami.domain.model.** { *; }
--dontnote com.rwmobi.kunigami.domain.model.**
-
 # Apollo workarounds
 -dontnote okio.**
 -keep class com.apollographql.apollo.** { *; }

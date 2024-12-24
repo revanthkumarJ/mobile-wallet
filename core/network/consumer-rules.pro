@@ -1,5 +1,10 @@
 -keep class io.ktor.** { *; }
 -keep class kotlinx.serialization.** { *; }
+-keep class io.ktor.client.network.sockets.** { *; }
+-keep class io.ktor.client.plugins.* { *; }
+-keep class io.ktor.util.* { *; }
+-keep class io.ktor.utils.io.* { *; }
+-keep class java.lang.management.* { *; }
 -dontwarn io.ktor.client.network.sockets.SocketTimeoutException
 -dontwarn java.lang.management.RuntimeMXBean
 
@@ -20,3 +25,6 @@
 -dontwarn org.openjsse.**
 
 -keep class org.mifospay.core.network.services.* { *;}
+-keep class de.jensklingenberg.ktorfit.converter.** { *; }
+-keep class de.jensklingenberg.ktorfit.** { *; }
+-keeppackagenames de.jensklingenberg.ktorfit.*

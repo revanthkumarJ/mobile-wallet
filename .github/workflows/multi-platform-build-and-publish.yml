@@ -74,11 +74,6 @@ on:
         default: 'dev'
         description: 'Target branch for release'
 
-      publish_android:
-        type: boolean
-        default: false
-        description: Publish Android App On Play Store
-
       build_ios:
         type: boolean
         default: false
@@ -101,7 +96,7 @@ concurrency:
 jobs:
   multi_platform_build_and_publish:
     name: Multi-Platform Build and Publish
-    uses: niyajali/mifos-mobile-github-actions/.github/workflows/multi-platform-build-and-publish.yaml@main
+    uses: openMF/mifos-mobile-github-actions/.github/workflows/multi-platform-build-and-publish.yaml@main
     with:
       release_type: ${{ inputs.release_type }}
       target_branch: ${{ inputs.target_branch }}
@@ -109,7 +104,7 @@ jobs:
       ios_package_name: 'mifospay-ios' # <-- Change this to your ios package name
       desktop_package_name: 'mifospay-desktop' # <-- Change this to your desktop package name
       web_package_name: 'mifospay-web'   # <-- Change this to your web package name
-      publish_android: ${{ inputs.publish_android }}
+      tester_groups: 'mobile-wallet-testing' # <-- Change this to your Firebase tester group
       build_ios: ${{ inputs.build_ios }}
       publish_ios: ${{ inputs.publish_ios }}
     secrets:

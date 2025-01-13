@@ -9,7 +9,7 @@
  */
 plugins {
     alias(libs.plugins.mifospay.kmp.library)
-    alias(libs.plugins.ktrofit)
+    alias(libs.plugins.ktorfit)
     id("kotlinx-serialization")
     id("com.google.devtools.ksp")
 }

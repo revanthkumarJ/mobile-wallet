@@ -5,3 +5,6 @@
 <key>NSCameraUsageDescription</key><string>$(PRODUCT_NAME) camera description.</string>
 <key>NSPhotoLibraryUsageDescription</key><string>$(PRODUCT_NAME) photos description.</string>
 ```
+# :feature:request-money module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_feature_request_money.svg)

@@ -12,3 +12,6 @@ https://github.com/user-attachments/assets/71c99507-2539-4686-af6d-eefefe5fff22
 ### Web
 ![Screenshot (111)](https://github.com/user-attachments/assets/7e7e2a6d-c32c-4637-b5c1-501960c5e0b3)
 ![Screenshot (112)](https://github.com/user-attachments/assets/017ef915-fc95-4283-81e7-157de1cca1a4)
+# :feature:notification module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_feature_notification.svg)

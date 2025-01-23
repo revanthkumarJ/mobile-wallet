@@ -20,3 +20,6 @@ graph LR
   :mifospay-web --> :core:model
   :mifospay-web --> :core:datastore
 ```
+# :mifospay-web module
+## Dependency graph
+![Dependency graph](../docs/images/graphs-kmp/dep_graph_mifospay_web.svg)

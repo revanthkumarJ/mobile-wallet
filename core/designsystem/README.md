@@ -14,3 +14,6 @@ graph LR
   end
   :core:designsystem --> :core:model
 ```
+# :core:designsystem module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_core_designsystem.svg)

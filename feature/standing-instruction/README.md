@@ -22,3 +22,6 @@ https://github.com/user-attachments/assets/d53d1d69-d60d-42ab-a377-457baf070262
 ![Screenshot (127)](https://github.com/user-attachments/assets/59d1174c-1dbd-40f7-b83a-0a9c0aa455c4)
 ![Screenshot (128)](https://github.com/user-attachments/assets/0a763a21-e108-45da-b022-fefc1514d2ba)
 
+# :feature:standing-instruction module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_feature_standing_instruction.svg)

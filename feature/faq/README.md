@@ -13,3 +13,6 @@ https://github.com/user-attachments/assets/303b2ddb-5230-4823-a5d7-5fc640117f7e
 
 ![Screenshot (55)](https://github.com/user-attachments/assets/a977e263-f7fb-4662-805a-ebf251a6f927)
 ![Screenshot (56)](https://github.com/user-attachments/assets/d756ee75-6423-46d3-9fbb-7bae8005ae21)
+# :feature:faq module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_feature_faq.svg)

@@ -17,3 +17,6 @@ https://github.com/user-attachments/assets/32af8978-6bc6-4dff-afc1-2e17215381fc
 ### Web
 ![Screenshot (45)](https://github.com/user-attachments/assets/34caac62-2308-40eb-a870-b28d20f8742a)
 ![Screenshot (46)](https://github.com/user-attachments/assets/9c1ee703-4965-4af4-a269-2d3088926533)
+# :feature:home module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_feature_home.svg)

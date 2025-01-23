@@ -16,3 +16,6 @@ graph LR
   :mifospay-android --> :core:data
   :mifospay-android --> :core:ui
 ```
+# :mifospay-android module
+## Dependency graph
+![Dependency graph](../docs/images/graphs-kmp/dep_graph_mifospay_android.svg)

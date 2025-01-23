@@ -20,3 +20,6 @@ graph LR
   :core:ui --> :core:model
   :core:ui --> :core:common
 ```
+# :core:ui module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_core_ui.svg)

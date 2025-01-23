@@ -24,3 +24,6 @@
 ![Screenshot (98)](https://github.com/user-attachments/assets/7eb394a2-a4fe-4b08-8ddc-543b957f59d8)
 ![Screenshot (99)](https://github.com/user-attachments/assets/a09c7894-4e5b-455f-bd20-decf6032553a)
 ![Screenshot (100)](https://github.com/user-attachments/assets/0ca4f83c-1b3e-47ed-b9b8-0a5390ca7045)
+# :feature:accounts module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_feature_accounts.svg)

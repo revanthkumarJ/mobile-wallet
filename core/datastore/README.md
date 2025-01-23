@@ -16,3 +16,6 @@ graph LR
   :core:datastore --> :core:model
   :core:datastore --> :core:common
 ```
+# :core:datastore module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_core_datastore.svg)

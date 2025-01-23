@@ -43,7 +43,7 @@ zxingVersion = "3.5.3"
 
 # Utility Dependencies
 dependencyGuard = "0.5.0"
-moduleGraph = "2.5.0"
+moduleGraph = "2.7.3"
 secrets = "2.0.1"
 protobuf = "4.26.0"
 protobufPlugin = "0.9.4"

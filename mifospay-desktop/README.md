@@ -20,3 +20,6 @@ graph LR
   :mifospay-desktop --> :core:datastore
   :mifospay-desktop --> :mifospay-shared
 ```
+# :mifospay-desktop module
+## Dependency graph
+![Dependency graph](../docs/images/graphs-kmp/dep_graph_mifospay_desktop.svg)

@@ -16,3 +16,6 @@ https://github.com/user-attachments/assets/bd667ca1-bd85-4783-95bc-f4567e37011f
 ![Screenshot (62)](https://github.com/user-attachments/assets/a3bb61e0-b601-4461-b2cd-73f83cd8a4dd)
 ![Screenshot (63)](https://github.com/user-attachments/assets/c8540d1d-e3fc-42aa-b8f5-f4b31a365861)
 ![Screenshot (64)](https://github.com/user-attachments/assets/518dc78f-b775-4a1f-957f-0b0f5043277e)
+# :feature:editpassword module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_feature_editpassword.svg)

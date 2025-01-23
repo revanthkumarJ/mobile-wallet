@@ -14,3 +14,6 @@ https://github.com/user-attachments/assets/4ddbab82-5666-40f1-b7bf-a1878474e05c
 
 ![Screenshot (83)](https://github.com/user-attachments/assets/c6986564-bcae-4ad5-ad4d-28c897a3b33d)
 ![Screenshot (84)](https://github.com/user-attachments/assets/d12f0ca4-9c01-496a-b798-52197caebcf9)
+# :feature:payments module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_feature_payments.svg)

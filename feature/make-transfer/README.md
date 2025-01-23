@@ -16,3 +16,6 @@ https://github.com/user-attachments/assets/d60d7fd4-4eae-42c9-9909-03c06b28824f
 ![Screenshot (149)](https://github.com/user-attachments/assets/2f55f2eb-4891-4b33-aa20-435e6121f004)
 ![Screenshot (150)](https://github.com/user-attachments/assets/01fe27cc-4181-4b56-baa4-3e9d16592e2f)
 
+# :feature:make-transfer module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_feature_make_transfer.svg)

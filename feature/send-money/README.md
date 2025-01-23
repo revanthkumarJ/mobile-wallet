@@ -16,3 +16,6 @@ https://github.com/user-attachments/assets/835a5b4b-00f9-4680-a095-11cb81b160c1
 
 ![Screenshot (142)](https://github.com/user-attachments/assets/af00c8b2-22f1-4c16-a2bb-d12316124648)
 ![Screenshot (143)](https://github.com/user-attachments/assets/fe0b3427-c821-4fd3-a39b-2e3d249c35cf)
+# :feature:send-money module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_feature_send_money.svg)

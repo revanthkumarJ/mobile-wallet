@@ -18,3 +18,6 @@ https://github.com/user-attachments/assets/8311217d-d3b7-485d-bab3-a525299a3556
 ![Screenshot (78)](https://github.com/user-attachments/assets/8a90be46-6aca-4af6-9ed1-74c938e1d52d)
 ![Screenshot (79)](https://github.com/user-attachments/assets/fe385325-2c95-4aed-8bcf-73197745fa64)
 ![Screenshot (80)](https://github.com/user-attachments/assets/42d7c626-3b3c-44e3-955e-9506f2f16e24)
+# :feature:history module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_feature_history.svg)

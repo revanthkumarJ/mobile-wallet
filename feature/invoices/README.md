@@ -14,3 +14,6 @@ https://github.com/user-attachments/assets/10b1923d-a332-40af-a8ed-91d204b64f0c
 ![Screenshot (103)](https://github.com/user-attachments/assets/e00ccb61-b4a7-49de-a46b-c0613723508f)
 ![Screenshot (104)](https://github.com/user-attachments/assets/70606ba1-f261-486b-a109-37d7579b0242)
 
+# :feature:invoices module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_feature_invoices.svg)

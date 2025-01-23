@@ -176,3 +176,6 @@ And this feature could be merge with `Accounting` feature, to download the trans
     ]
 }
 ```
+# :feature:receipt module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_feature_receipt.svg)

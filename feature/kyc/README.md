@@ -15,3 +15,6 @@ https://github.com/user-attachments/assets/3a445a2d-5a45-432a-b16d-bbd09b8c64f1
 ![Screenshot (108)](https://github.com/user-attachments/assets/a8818f99-1c55-42bd-9470-aff25946e719)
 ![Screenshot (109)](https://github.com/user-attachments/assets/c3717888-1a81-401d-8864-f55b821d4106)
 ![Screenshot (110)](https://github.com/user-attachments/assets/75b1b6c0-0b4f-4f36-b416-cb4e74227802)
+# :feature:kyc module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_feature_kyc.svg)

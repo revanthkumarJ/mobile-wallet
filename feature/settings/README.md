@@ -16,3 +16,6 @@ https://github.com/user-attachments/assets/d0844712-a176-4cc1-b742-22c0fcbf3696
 ![Screenshot (52)](https://github.com/user-attachments/assets/1c50bb45-598b-4471-9cb3-04584fef9ac1)
 ![Screenshot (53)](https://github.com/user-attachments/assets/126053b3-9595-4569-9153-36a5fe5972da)
 ![Screenshot (54)](https://github.com/user-attachments/assets/0ae8a31b-271a-4833-8ffb-69043b28f6cd)
+# :feature:settings module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_feature_settings.svg)

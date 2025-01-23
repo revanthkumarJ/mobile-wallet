@@ -19,3 +19,6 @@ https://github.com/user-attachments/assets/45079430-7297-462f-8b5b-3ac0162dd633
 ![Screenshot (123)](https://github.com/user-attachments/assets/fa6eeee4-8dac-4df6-b21a-b6fcbb4d0f2c)
 ![Screenshot (124)](https://github.com/user-attachments/assets/4fd99539-41c0-4fba-a847-655856198463)
 
+# :feature:savedcards module
+## Dependency graph
+![Dependency graph](../../docs/images/graphs-kmp/dep_graph_feature_savedcards.svg)

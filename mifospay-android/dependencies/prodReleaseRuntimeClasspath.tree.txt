@@ -1273,7 +1273,6 @@
 |    |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.0 (*)
 |    |    |    |    +--- androidx.activity:activity:1.9.3 (c)
 |    |    |    |    \--- androidx.activity:activity-ktx:1.9.3 (c)
-|    |    |    +--- project :core:model (*)
 |    |    |    +--- com.arkivanov.essenty:back-handler:2.1.0
 |    |    |    |    \--- com.arkivanov.essenty:back-handler-android:2.1.0
 |    |    |    |         +--- androidx.activity:activity-ktx:1.8.1 -> 1.9.3 (*)

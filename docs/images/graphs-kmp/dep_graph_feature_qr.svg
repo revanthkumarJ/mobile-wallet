@@ -93,12 +93,6 @@
 <path fill="none" stroke="black" d="M247.74,-287.71C247.35,-269.1 248.78,-239.06 259.74,-216 278.76,-175.97 293.19,-170.47 328.74,-144 391.5,-97.27 474.28,-59 525.49,-37.61"/>
 <polygon fill="black" stroke="black" points="527.08,-40.74 534.98,-33.68 524.4,-34.27 527.08,-40.74"/>
 </g>
-<!-- :core:designsystem&#45;&gt;:core:model -->
-<g id="edge8" class="edge">
-<title>:core:designsystem&#45;&gt;:core:model</title>
-<path fill="none" stroke="black" d="M123.29,-216.33C152.04,-195.93 204.01,-161.91 253.74,-144 334.96,-114.74 433.71,-101.51 499.62,-95.61"/>
-<polygon fill="black" stroke="black" points="500.24,-99.07 509.91,-94.72 499.64,-92.09 500.24,-99.07"/>
-</g>
 <!-- :core:data&#45;&gt;:core:analytics -->
 <g id="edge14" class="edge">
 <title>:core:data&#45;&gt;:core:analytics</title>

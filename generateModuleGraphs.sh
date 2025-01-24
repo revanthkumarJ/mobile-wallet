@@ -65,9 +65,9 @@ check_and_create_readme() {
     readme_path="${readme_path}/README.md" #Append the filename
 
     # Check if README.md exists and create it if not
-    if [[ ! -f "$readme_path" ]]; then
-        echo "Creating README.md for ${module_path}"
-    fi
+    # if [[ ! -f "$readme_path" ]]; then
+    #     echo "Creating README.md for ${module_path}"
+    # fi
         # Determine the depth of the module based on the number of colons
         local depth=$(awk -F: '{print NF-1}' <<< "${module_path}")
 
@@ -78,9 +78,9 @@ check_and_create_readme() {
         done
         relative_image_path+="docs/images/graphs-kmp/${file_name}.svg"
 
-        echo "# ${module_path} module" >> "$readme_path"
-        echo "## Dependency graph" >> "$readme_path"
-        echo "![Dependency graph](${relative_image_path})" >> "$readme_path"
+        # echo "# ${module_path} module" >> "$readme_path"
+        # echo "## Dependency graph" >> "$readme_path"
+        # echo "![Dependency graph](${relative_image_path})" >> "$readme_path"
 }
 
 # Loop through each module path
